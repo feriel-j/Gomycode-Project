@@ -1,0 +1,205 @@
+/************* CAROUSEL***********/
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.prev:hover,
+.next:hover {
+  color: beige;
+  background-color: rgba(239, 99, 40, 1) !important;
+}
+.carrrousel {
+  margin: 2% 0%;
+  padding: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.traveller {
+  width: 20%;
+  height: 450px;
+  border-radius: 8px;
+  margin: 0% 1%;
+}
+.carrrousel {
+  width: 100% !important;
+  height: 450px !important;
+}
+.carouImg {
+  width: 45rem !important;
+  height: 450px !important;
+  border-radius: 5px;
+  object-fit: cover;
+}
+/*******************************/
+.happy-travel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+  padding: 1%;
+}
+.happy-travel h1 {
+  font-family: "Courgette", cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-image: linear-gradient(
+    180.6deg,
+    rgba(11, 132, 145, 1) 10%,
+    rgba(0, 0, 0, 1) 70%
+  );
+  border-radius: 8px;
+  color: beige;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 0.8% 0;
+  letter-spacing: 1.5px;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 2% auto;
+  margin-top: 7%;
+}
+.boxxx {
+  padding: 0;
+  width: 80%;
+  height: 350px;
+  margin: 0 auto;
+  background-color: beige;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px silver solid;
+  box-shadow: 2px 2px 20px -2px rgba(60, 105, 86, 0.75);
+  -webkit-box-shadow: 2px 2px 17px -2px rgba(60, 105, 86, 0.75);
+  -moz-box-shadow: 2px 2px 17px -2px rgba(60, 105, 86, 0.75);
+}
+.boxxx:hover {
+  transform: scale(1.05);
+}
+.boxxx p {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: justify;
+  overflow: none;
+  color: rgb(22, 94, 90);
+  margin-top: 10px;
+  padding: 4%;
+}
+.boxxx h5 {
+  padding: 3%;
+  margin: 0;
+  font-family: "Courgette", cursive;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgba(239, 99, 40, 1);
+
+  text-decoration: none;
+}
+.box-img {
+  width: 100% !important;
+  height: 200px !important;
+  object-fit: contain !important;
+}
+
+.maps {
+  margin-top: 20px;
+  width: 100%;
+  margin-top: 20px;
+  margin: 0 auto;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+/*********Featured List **************/
+.featuredlist-container {
+  width: 95%;
+  margin: 0 auto;
+  margin: 5% 3% 2% 3%;
+}
+.storylist-container h1 {
+  font-family: "Courgette", cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-image: linear-gradient(
+    180.6deg,
+    rgba(11, 132, 145, 1) 10%,
+    rgba(0, 0, 0, 1) 70%
+  );
+  border-radius: 8px;
+  color: beige;
+  width: 100%;
+  margin: 50px auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 0.8% 0;
+  letter-spacing: 1.5px;
+}
+.list-sories {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.cNNJIt:hover {
+  background-color: rgba(239, 99, 40, 1) !important;
+  color: white !important;
+}
+.cNNJIt {
+  background-color: rgba(239, 99, 40, 1) !important;
+  color: white !important;
+  box-shadow: 0 0 2px 0px #333;
+}
+.lcUbOd {
+  background-color: rgba(239, 99, 40, 1) !important;
+
+  box-shadow: 0 0 1px 3px rgba(239, 99, 40, 1) !important;
+}
+.eaptOe {
+  background-color: transparent;
+
+  box-shadow: 0 0 1px 2px rgba(239, 99, 40, 1) !important;
+}
+.jRFJkP:hover {
+  color: rgba(239, 99, 40, 1) !important;
+  background-color: beige !important;
+  box-shadow: 0 0 1px 2px rgba(239, 99, 40, 1) !important;
+}
+.jRFJkP {
+  background-color: rgba(239, 99, 40, 1) !important;
+  color: white !important;
+  box-shadow: 0 0 2px 0px #333;
+}
+
+@media screen and (max-width: 950px) {
+  .carrrousel {
+    height: 400px;
+  }
+  .traveller {
+    display: none;
+  }
+  .carrou {
+    width: 750px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 724px) {
+  .carrrousel {
+    height: 400px;
+  }
+  .traveller {
+    display: none;
+  }
+  .carrou {
+    width: 70% !important;
+    height: 50% !important;
+  }
+}

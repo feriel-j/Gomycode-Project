@@ -1,0 +1,49 @@
+.titleCloseBtnn {
+  font-size: 25px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: rgba(239, 99, 40, 1);
+}
+.headerProfilEdit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalProfilTitle h1 {
+  font-size: 18px;
+}
+.edit_profilee {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  color: rgba(239, 99, 40, 1);
+  background-color: beige;
+  border-radius: 3px;
+}
+.modalProfilFooter {
+  padding: 3%;
+  display: flex;
+  justify-content: center;
+}
+.modalProfilFooter button {
+  width: 100px;
+  padding: 2%;
+  margin: 2.2%;
+  outline: none !important;
+  color: rgba(239, 99, 40, 1);
+  border: none !important;
+  border-radius: 5px;
+  background-color: beige !important;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+.modalProfilFooter button:hover {
+  background-color: rgba(239, 99, 40, 1) !important;
+  color: white !important;
+}

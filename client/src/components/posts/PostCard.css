@@ -1,0 +1,125 @@
+.post_card {
+  width: 60%;
+  padding: 2% 5%;
+  margin: 1% auto;
+  border-radius: 10px;
+  border: 2px solid rgb(22, 94, 90);
+  box-shadow: 0 0 15px 0 black;
+}
+
+.user_section img {
+  width: 45px;
+  height: 45px;
+  margin-right: 4%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px rgba(239, 99, 40, 1) solid;
+}
+.user_section {
+  font-family: "Courgette", cursive;
+  padding: 0%;
+  margin: 1% 0%;
+  display: flex;
+  align-items: center;
+  color: rgba(239, 99, 40, 1);
+  font-size: 20px;
+  font-weight: bold;
+  background-color: transparent;
+  border-radius: 3px;
+}
+
+.card_body h4 {
+  color: rgb(22, 94, 90);
+  margin: 0%;
+  padding: 2% 5%;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: start;
+}
+.card_body p {
+  margin: 1% 0;
+  text-align: start;
+  font-size: 15px;
+  padding: 2% 5%;
+}
+.card_footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 1%;
+}
+
+.num button {
+  width: 18% !important;
+  color: rgba(239, 99, 40, 1) !important;
+  background-color: transparent !important;
+  text-decoration: underline;
+  display: flex;
+}
+.like {
+  justify-content: start !important;
+}
+.cmnt {
+  justify-content: end !important;
+}
+.card_footer button {
+  width: 12%;
+  padding: 1%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  /* background-color: rgba(239, 99, 40, 1); */
+  font-size: 20px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-posts {
+  display: flex;
+  justify-content: space-between;
+}
+.btnpost {
+  width: 100%;
+  margin-bottom: 2%;
+}
+.btn-posts button {
+  background-color: transparent;
+  color: rgba(239, 99, 40, 1);
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+.btn-posts button:hover {
+  color: rgb(22, 94, 90);
+}
+.post-img {
+  width: 100%;
+  border-radius: 0px 0px 5px 5px;
+  object-fit: cover;
+  background-color: chocolate;
+}
+
+.card_body {
+  width: 100%;
+  margin: 1% auto;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 2px solid rgba(239, 99, 40, 1);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.644);
+}
+.feri-like {
+  color: red !important;
+  font-size: 20px !important;
+}
+.feri-unlike {
+  color: black !important;
+  font-size: 20px !important;
+}

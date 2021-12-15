@@ -1,0 +1,83 @@
+.profil-content {
+  width: 75%;
+}
+.profil-content h1 {
+  font-family: "Courgette", cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: rgba(192, 192, 192, 0.253);
+  border-radius: 8px;
+  color: rgb(22, 94, 90);
+  width: 80%;
+  margin: 1% auto;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 0;
+  letter-spacing: 1.5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.692);
+}
+.profil-content span {
+  padding: 5%;
+  color: orangered;
+}
+.stories_content {
+  margin-top: 1%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+.stories_content h1 {
+  font-size: 2rem;
+  padding: 1%;
+}
+.stories_list {
+  height: 75vh;
+  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.posts_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.story-add {
+  width: 15%;
+  margin: 0 auto;
+  background-color: rgb(22, 94, 90);
+  padding: 1%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 3%;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.story-add a {
+  color: white;
+  text-decoration: none !important;
+  font-size: 18px;
+  font-weight: bold;
+}
+.story-add :hover {
+  background-color: beige;
+  box-shadow: 0 0 10px 0;
+}
+.story-add a:hover {
+  color: rgb(22, 94, 90) !important;
+}
+.story-add span {
+  padding: 2%;
+
+  font-size: 20px;
+  color: beige;
+}
+.host {
+  margin-top: 5% !important;
+}

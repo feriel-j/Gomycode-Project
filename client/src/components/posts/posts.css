@@ -1,0 +1,91 @@
+.posts-page {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.posts-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.posts-header h1 {
+  font-family: "Courgette", cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+  color: orangered;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 0.8% 0;
+  letter-spacing: 1.5px;
+  box-shadow: 0 0 8px 0 black;
+}
+.posts-header img {
+  width: 70%;
+  margin: 10px;
+}
+.posts-list {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btnnn-load {
+  width: 150px;
+  margin: 0 auto;
+  padding: 0.8%;
+  outline: none;
+  margin-top: 50px !important;
+  border: none;
+  background-image: linear-gradient(
+    180.6deg,
+    rgba(11, 132, 145, 1) 10%,
+    rgba(0, 0, 0, 1) 70%
+  );
+  color: beige;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.btnnn-load:hover {
+  background-image: linear-gradient(
+    180.6deg,
+    rgba(11, 132, 145, 1) 10%,
+    rgba(0, 0, 0, 1) 70%
+  );
+  color: beige;
+  transform: scale(1.1);
+}
+.btn-bar {
+  width: 80%;
+  margin-top: 50px !important;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid silver;
+  padding-bottom: 50px;
+}
+.btn-bar button {
+  width: 100px;
+  margin: 15px;
+  padding: 0.8%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgba(239, 99, 40, 1);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn-bar button:hover {
+  transform: scale(1.05);
+}

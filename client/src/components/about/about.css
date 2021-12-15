@@ -1,0 +1,266 @@
+.about-containerr {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.image-quote {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.about-section {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 3px;
+}
+
+.about-happyT {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2%;
+  margin-top: 0;
+}
+.title-about {
+  font-family: "Courgette", cursive;
+  font-size: 2.8rem;
+  text-align: center;
+  color: rgba(239, 99, 40, 1) !important;
+  letter-spacing: 2;
+}
+.title-about span {
+  color: rgb(22, 94, 90);
+}
+.happy-desc h2 {
+  font-family: "Courgette", cursive;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  color: rgb(22, 94, 90);
+}
+.happy-desc p {
+  padding: 0 8%;
+  padding-bottom: 10px;
+
+  text-align: justify;
+  font-size: 14px;
+}
+.photoos {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ferii {
+  width: 20%;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 8px;
+}
+.ferii:hover {
+  transform: scale(1.3);
+}
+
+.happy-desc {
+  width: 60%;
+  height: fit-content;
+  padding: 2%;
+  margin-top: 50px !important;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 15px 0px;
+  border-radius: 10px;
+}
+.happy-desc:hover {
+  transform: scale(1.02);
+}
+
+.about-happyT > * {
+  width: 100%;
+}
+.about-feriel {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 1% 2%;
+  /* background-image: url("../../../public/images/sintra1.JPG"); */
+  border-radius: 5px;
+}
+
+.feri-info {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 0px;
+  border-radius: 10px;
+  background-color: rgba(245, 245, 220, 0.918);
+  z-index: 8888;
+  position: relative;
+  top: 50px !important;
+}
+.feri-info:hover {
+  transform: scale(1.01);
+}
+.feri-info h2 {
+  font-family: "Courgette", cursive;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  color: rgb(22, 94, 90);
+  font-size: 28px;
+}
+
+.feri-info p {
+  padding: 0 10%;
+  padding-bottom: 10px;
+  text-align: justify;
+  font-size: 13px;
+  color: black;
+}
+.feri-info h4 {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+.feriel {
+  width: 95%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 20px;
+  position: absolute;
+  box-shadow: 0px 0px 15px 0px;
+}
+.follow-me {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 3px solid rgb(22, 94, 90);
+  border-bottom: 3px solid rgb(22, 94, 90);
+}
+
+.media {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.media > * {
+  width: 30px;
+  height: 30px;
+  color: rgba(239, 99, 40, 1);
+}
+.contact-me {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+.media2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+.fer {
+  font-size: 25px;
+  padding: 0 !important;
+}
+.btns-bar {
+  margin-top: 180px !important;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid silver;
+  padding-bottom: 1%;
+}
+.btns-bar button {
+  width: 100px;
+  margin: 15px;
+  padding: 8%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgba(239, 99, 40, 1);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btns-bar button:hover {
+  transform: scale(1.05);
+}
+.fer {
+  font-family: "Courgette", cursive;
+  font-size: 35px;
+}
+.happy-values {
+  width: 100%;
+}
+.value-boxes {
+  width: 90%;
+  margin: 0 auto;
+
+  padding: 2%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.value-box {
+  background-color: beige;
+  color: rgb(22, 94, 90);
+  box-shadow: 0 0 5px 0;
+  width: 30%;
+  height: 220px;
+  margin: 10px;
+  padding: 3%;
+}
+.value-box:hover {
+  background-color: rgb(22, 94, 90);
+  color: beige;
+}
+.values-icon {
+  color: rgba(239, 99, 40, 1);
+  width: 40px;
+  height: 40px;
+  padding: 1%;
+}
+.value-box p {
+  font-size: 14px;
+  font-weight: 500;
+  height: 80px;
+
+  padding: 1%;
+}
+.value-box h3 {
+  font-family: "Courgette", cursive;
+  font-size: 24px;
+  padding: 1%;
+}

@@ -1,0 +1,70 @@
+.conatiner-admin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 2%;
+  margin-bottom: 1%;
+  /* border: 1px solid silver; */
+  color: rgba(22, 94, 90, 0.801);
+  border-radius: 10px;
+}
+.conatiner-admin h5 {
+  width: 30%;
+}
+
+.mail {
+  width: 60% !important;
+}
+.user_btns {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.B_U {
+  width: 50% !important;
+}
+.user_btns button {
+  background-color: transparent;
+  margin: 0%;
+  border: none;
+  font-size: 18px;
+  color: rgba(22, 94, 90, 0.801);
+}
+
+.dash-t {
+  border: none;
+  border-radius: 0 !important;
+  color: rgba(22, 94, 90, 0.801);
+  border-bottom: 2px orangered solid;
+  font-weight: bold;
+}
+.role_ur {
+  width: 100%;
+  margin: 0;
+}
+.role_ur h5 {
+  width: 100%;
+
+  text-align: start;
+}
+
+.st-bt {
+  width: 18%;
+  justify-content: flex-end;
+}
+.creator {
+  display: flex;
+  justify-content: center;
+}
+.st {
+  width: 80% !important;
+}
+.stb {
+  width: 10% !important;
+}
+.ttle {
+  width: 100%;
+}

@@ -1,0 +1,107 @@
+.admin_dash {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  box-shadow: 0 0 20px 0 silver;
+  display: flex;
+}
+.dash_sec1 {
+  background-color: rgba(22, 94, 90, 0.801);
+  width: 15%;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.dash_sec1 h3 {
+  text-align: center;
+  color: beige;
+  padding: 2%;
+  font-size: 30px;
+  border-radius: 5px;
+  animation: heartbeat 10s infinite;
+}
+.boutonssss {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boutonssss button {
+  width: 100%;
+  margin: 0 auto;
+  padding: 4%;
+  margin: 3%;
+  box-shadow: 0 0 15px 0 black;
+  font-size: 18px;
+  font-weight: bolder;
+  color: rgba(22, 94, 90, 0.801);
+}
+.dash_sec2 {
+  margin-top: 50px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dashh_sec2 {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-one {
+  padding: 2%;
+  width: 30%;
+  background-color: rgba(22, 94, 90, 0.801);
+  color: white;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 2%;
+  box-shadow: 0 0 8px 0;
+}
+.i {
+  font-size: 30px;
+  padding: 5%;
+}
+.box-one h2 {
+  width: 100%;
+  padding: 4%;
+  margin: 0;
+}
+.links {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.lk:hover {
+  color: rgba(22, 94, 90, 0.801) !important;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.75);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.75);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}

@@ -1,0 +1,102 @@
+.modalBackgroundstory {
+  width: 100%;
+  height: 180vh;
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  background-color: rgba(129, 129, 129, 0.507);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 9999999;
+}
+
+.modalContainerstory {
+  width: 500px;
+  height: 800px;
+  border-radius: 12px;
+  background-color: beige;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.modalContainerstory .modalmeetTitle {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+}
+.modalContainerstory h1 {
+  width: 60%;
+  color: rgba(239, 99, 40, 1);
+  box-shadow: none;
+  margin: 0 auto;
+  padding: 2%;
+  border-radius: 0px;
+  border-bottom: 2px solid silver;
+  text-align: center;
+  font-family: "Courgette", cursive;
+}
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;
+}
+
+.titleCloseBtn button {
+  background-color: transparent !important;
+  border: none !important;
+  color: rgba(239, 99, 40, 1) !important;
+  font-size: 25px !important;
+  cursor: pointer !important;
+}
+.titleCloseBtn button:hover {
+  transform: scale(1.05) !important;
+}
+.modalContainerstory .modalmeetBody {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+.modalmeetBody input {
+  width: 80%;
+  margin: 1% auto;
+  padding: 2%;
+}
+
+.modalmeetFooterstory {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.modalmeetFooterstory button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: rgba(239, 99, 40, 1);
+  color: beige;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.modalmeetFooterstory button:hover {
+  color: rgba(239, 99, 40, 1);
+  background-color: beige;
+  border: 2px solid rgba(239, 99, 40, 1);
+}

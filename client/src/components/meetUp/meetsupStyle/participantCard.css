@@ -1,0 +1,35 @@
+.part_card {
+  width: 25%;
+  padding: 0.5% 1%;
+  display: flex;
+  margin: 2%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 rgba(192, 192, 192, 0.671);
+}
+.parti {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(22, 94, 90, 0.534);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1%;
+}
+.parti h4 {
+  padding: 1%;
+  color: white !important;
+  text-transform: capitalize;
+}
+.part_card h4 {
+  color: rgba(22, 94, 90, 0.801);
+  padding: 0% 2%;
+  text-transform: capitalize;
+}
+.part-btn1 {
+  font-size: 20px;
+  color: rgba(22, 94, 90, 0.801);
+  margin: 0 8%;
+}
